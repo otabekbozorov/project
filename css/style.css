@@ -1,0 +1,597 @@
+*,ul, ol,dl{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Futura PT';
+	line-height: 1;
+}
+.wrapper{
+	overflow: hidden;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1160px;
+}
+
+
+
+/**** HEADER ****/
+header {
+	padding: 35px 0;
+  	box-shadow: 0px 11px 16.02px 1.98px rgba(0, 4, 7, 0.06);
+  	position: fixed;
+  	width: 100%;
+  	z-index: 1000;
+  	background-color: #fff;
+}
+.container {
+	padding: 0;
+}
+.navbar {
+	padding:0;}
+
+.container .navbar .navbar-brand span{
+	font-family: 'Futura PT Extra';
+	font-weight: bolder;	
+	color: #7ca5d9;
+}
+
+.container .navbar-brand a{
+	color: #454244;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #454244;
+	font-size: 18px;
+} 
+link:focus, .navbar-light .navbar-nav .nav-link:hover{
+	color: #7ca5d9;
+}
+.collapse .nav-item:last-child{
+	display: flex;
+	align-items: center;
+}
+
+.collapse .nav-item img{
+	margin-right:  20px;
+}
+
+.navbar .navbar-brand img{
+	margin-right: 28px;
+}
+
+/**** HEADER END ****/
+
+
+
+
+/**** SECTION ****/
+
+section .top-menu .container{
+	margin-top: 137px;
+	padding-top: 60px; 
+	font-family: 'Futura PT';
+	color: #454244;
+}
+.top-menu .container .proksi{
+	margin-bottom: 12px;
+	font-size: 60.02px;
+}
+
+.top-menu .container .id{
+	font-size: 60px;
+	font-family: 'Futura PT Extra';
+	margin-bottom: 45px;
+}
+.top-menu .container ul li{
+	font-size: 20px;
+	list-style: inside url(../images/arrow-nike.jpg);
+}
+.top-menu .container ul{
+	margin-bottom: 75px;
+}
+.top-menu .container .btn{
+	border-radius: 4px;
+  	background-color: rgb(124, 165, 217);
+  	box-shadow: 0px 16px 49.92px 2.08px rgba(18, 160, 239, 0.29);
+  	padding: 15px 20px 16px 70px;
+  	text-transform: uppercase;
+  	color: #fff;
+  	font-size: 30px;
+  	position: relative;
+  	margin-bottom: 225px;
+}
+.top-menu .container .btn img{
+	margin-right: 10px;
+	position: absolute;
+	top: 17px;
+    left: 20px;
+}
+section .globus-main{
+	position: relative;
+}
+section .globus-main .globus {
+	position: absolute;
+	top:0;
+	left: 70px;
+	z-index: -1;
+}
+
+
+section .title{
+	font-family: 'Futura PT';
+	color: #454244;
+	font-size: 48px;
+}
+section .title span{
+	font-family: 'Futura PT Extra';
+}
+section .advantages .title{
+	margin-bottom: 90px;
+}
+.advantages .item a{
+	font-size: 18px;
+	color: #454244;
+}
+
+.advantages .item:nth-child(1),
+.advantages .item:nth-child(4){
+	padding-right: 50px;
+}
+.advantages .item:nth-child(2),
+.advantages .item:nth-child(5){
+	padding: 0 50px;
+}
+.advantages .item:nth-child(3),
+.advantages .item:nth-child(6){
+	padding-left: 50px;
+}
+.advantages .item a:hover{
+	text-decoration: none;
+}
+.advantages .logo-title a,
+.advantages .detail a{
+	font-family: 'Futura PT Extra';
+}
+.advantages .logo-title{
+	margin-bottom: 5px;
+}
+.advantages .detail{
+	margin-bottom: 10px;
+}
+.advantages .logo img{
+	border-radius: 50%;
+}
+.advantages .logo{
+	display: inline-block;
+	box-shadow: 21.843px 15.87px 81.7px 13.3px rgba(165, 200, 244, 0.84);
+	border-radius: 50%;
+	margin-bottom: 40px;
+}
+.advantages .comment{
+	font-family: 'Futura PT';
+	margin-bottom: 60px;
+}
+
+section .tarifs{
+	background-color: #f2f6fb;
+}
+.tarifs .product{
+	background-color: #fff;
+	border-radius: 11px;
+	box-shadow: 21.843px 15.87px 81.7px 13.3px rgba(165, 200, 244, 0.38);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 38px;
+	padding: 40px 36px;
+}
+section .tarifs .title{
+	padding: 30px 0;
+	margin-bottom: 60px;
+}
+.tarifs .product .tip{
+	color: #454244;
+	font-size: 18px;
+	margin-bottom: 14px;
+	font-family: 'Futura PT';
+}
+.tarifs .product .ip{
+	font-size: 30px;
+	color: #454244;
+	font-family: 'Futura PT Extra';
+	padding-bottom: 20px;
+	margin-bottom: 15px; 
+	border-bottom: 1px solid #cfdcec;
+	width: 100%;
+	text-align: center;
+}
+.tarifs .product .opisaniye {
+	color: #cf1a8f;
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 4px;
+	border-bottom: 2px dashed #cf1a8f;
+	margin-bottom: 15px;
+}
+.tarifs .product .opisaniye a{
+	color: #cf1a8f;
+}
+.product .icon{
+	margin-bottom: 35px;
+}
+
+.product .price span{
+	color: #cf1a8f;
+	font-size: 36px;
+	font-family: 'Futura PT Extra';
+}
+.product .price {
+	font-size: 18px;
+	color: #454244;
+	font-family: 'Futura PT';
+	font-weight: bold;
+	margin-bottom: 35px;
+}
+
+.product .download{
+	padding: 15px 70px;
+	font-size: 30px;
+  	background-color: rgb(124, 165, 217);
+  	box-shadow: 0px 16px 49.92px 2.08px rgba(18, 160, 239, 0.29);
+  	text-transform: uppercase;
+}
+
+.product .download a:hover{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.tarifs .white{
+	background-color: #fff;
+}
+.tarifs .white .container{
+	padding-top: 40px;
+}
+button, input, optgroup, select, textarea {
+	font-family: 'Futura PT';
+}
+.btn-primary {
+	border-color:rgb(124, 165, 217);
+}
+
+.tarifs .second{
+	padding-top: 40px;
+}
+.tarifs .icon ul{
+	display: flex;
+	list-style: none;
+}
+.tarifs .icon ul li{
+	padding: 0 10px;
+}
+
+
+section .answer{
+	background: url('../images/answer-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+section .answer .container{
+	padding: 60px 0;
+}
+.answer .title{
+	margin-bottom: 50px;
+	color: #fff;
+}
+section .answer .item-question{
+	border-radius: 11px;
+  	background-color: rgb(244, 248, 253);
+  	box-shadow: 21.843px 15.87px 81.7px 13.3px rgba(78, 82, 87, 0.13);
+  	padding: 20px 15px 20px 40px;
+  	margin-bottom: 20px;
+}
+section .answer .item-question ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.answer .item-question .question{
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.answer .item-question .btn{
+	padding: 0;
+}
+
+.answer .question-answer .btn{
+	width: 41px;
+	height: 41px;
+	background-image: url('../images/arrow-accordion.png');!important
+	border-radius: 	50%;
+	background-repeat: no-repeat;
+}
+.answer .question-answer p[aria-expanded=true]{
+	background: url('../images/x-accordion.png');
+	background-repeat: no-repeat;
+	
+}
+.answer .question-answer p{
+	margin-bottom: 0;
+}
+
+.answer .question-answer .card{
+	border: 0px solid rgba(0,0,0,.125);
+	border-top: 1px solid #bababa;
+    border-radius: 0;
+	margin-top: 20px;
+	padding: 30px 30px 10px 30px;
+	line-height: 1.5;
+	color: #000;
+}
+
+section .review .title{
+	padding: 87px 0 77px 0;
+}
+section .review .begin-zone{
+	color: #6c90c1;
+	font-size: 150px;
+	position: absolute;
+	top: -105px;
+	left: -15px;
+}
+section .review .zone{
+	display: block;
+	position: relative;
+}
+section .review .second{
+	color: #6c90c1;
+	font-size: 150px;
+}
+section .review .comment{
+	font-size: 15px;
+	line-height: 25px;
+	color: black;
+	padding-bottom: 50px;
+	border-bottom: 1px dashed #d5d5d5;
+}
+section .review .name{
+	color: #000;
+	font-size: 23px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+section .review .name span{
+	color: #c00ebe;
+}
+section .review .name a:hover{
+	text-decoration: underline;
+	text-decoration-color:#c00ebe; 
+}
+.review .selected ul{
+	display: flex;
+	list-style: none;
+	align-items: center;
+	justify-content: center;
+}
+
+.review .selected ul li{
+	font-size: 67px;
+	color: #000;
+	padding: 0 25px;	
+}
+.review .selected ul li span{
+	font-size: 25px;
+}
+.review .row{
+	margin-bottom: 40px;
+}
+section .review{
+	margin-bottom: 50px;
+}
+
+/**** SECTION END ****/
+
+
+
+
+
+
+/**** FOOTER ****/
+
+footer{
+	background-color:#434343;
+}
+footer .container{
+	padding: 40px 0;
+}
+footer .container .navbar-brand img{
+	padding-right:  25px;
+}
+
+footer .container span{
+	font-family: 'Futura PT Extra';
+}
+footer .container .navbar-brand{
+	color: #fff;
+	font-size: 30px;
+}
+footer .container .emblemma{
+	display: flex;
+	align-items: center;
+}
+
+footer .container ul{
+	list-style: none;
+	display: flex;
+	
+}
+footer .container ul li{
+	margin-right: 15px;
+}
+footer .container ul li img{
+	border-radius: 5px;
+}
+footer .container .footer-title{
+	color: #afaeae;
+	font-size: 15px;
+}
+
+/**** FOOTER END ****/
+
+
+
+
+/**** ADAPTIVNIY ****/
+
+@media (max-width: 992px){
+	.container{
+		width: 100%;
+		padding: 25px;
+	}
+	section .globus-main .globus {
+	position: absolute;
+	top:0;
+	left: -270px;
+	z-index: -1;
+	}
+	.product .download {
+		padding: 15px 23%;
+	}
+	.product .price span{
+		font-size: 25px;
+	}
+	.product .price {
+		font-size: 16px;
+	}
+	.tarifs .product .tip{
+		text-align: center;
+	}
+	section .answer .container{
+		padding: 20px;
+	}
+	section .review .begin-zone{
+		font-size: 135px;
+		left: 0;
+	}
+	section .review .second{
+		font-size: 135px;
+		display: flex;
+		align-items: flex-end;
+		margin-bottom:  71px;
+	}
+	section .review .comment {
+		line-height: 20px;
+	}
+	footer .row{
+		flex-direction: column;
+    	align-content: center;
+	}
+	footer .container .navbar-brand{
+		text-align: center;
+	}
+	footer .container .footer-title {
+		text-align: center;
+	}
+	footer .row .col-md-3{
+		margin-bottom: 15px;
+	}
+	footer .container .emblemma{
+		margin-bottom: 15px;
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+
+@media (max-width: 480px){
+	.container{
+		width: 100%;
+		padding: 15px;
+	}
+
+	.top-menu .container .proksi,
+	.top-menu .container .id{
+		padding: 0 15px;
+		font-size: 40px;
+		text-align: center;
+	}
+	.top-menu .container ul li{
+		font-size: 15px;
+	}
+	.top-menu .container .btn{
+		margin-bottom: 40px;
+    	font-size: 25px;
+    	display: flex;
+    	justify-content: space-around;
+	}
+	
+	section .title{
+		font-size: 40px;
+	}
+	.advantages .item{
+		text-align: center;
+		padding: 0 !important;
+	}
+	.tarifs .product{
+		margin:  20px;
+	}
+	section .answer .item-question{
+		margin: 10px 15px;
+	}
+	.answer .item-question .question{
+		font-size: 12px;
+		line-height: 15px;
+		padding-right: 10px; 
+	}
+	section .review .name{
+		font-size: 18px;
+	}
+	section .review .zone{
+		z-index: -1;
+		opacity: 0;
+		font-size: 1px;
+	}
+	section .review .second{
+		opacity: 0;
+		font-size: 1px;
+	}
+	section .review .title {
+    padding: 30px 0 35px 0;
+	}
+
+	footer .container{
+		text-align: center;
+		margin: 40px 5px;
+	}
+	footer .container .navbar-brand{
+		margin-bottom: 20px;
+	}
+	footer .container ul{
+		justify-content: space-between !important;
+	}
+	footer .container .emblemma {
+		margin-bottom: 20px;
+		display: flex;
+		justify-content: center;
+	}
+	footer .container .footer-title{
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		margin:  0 15px;
+	}
+	footer .row{
+		flex-direction: row;
+	}
+	.review .row{
+		margin-bottom: 20px;
+	}
+	section .review {
+    margin-bottom: 20px;
+	}
+}
+
